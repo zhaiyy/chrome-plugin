@@ -27,6 +27,7 @@ module.exports = {
       'src': path.resolve(__dirname, '../src'),
       'assets': path.resolve(__dirname, '../src/assets'),
       'components': path.resolve(__dirname, '../src/components'),
+      'utils': path.resolve(__dirname, '../src/utils'),
       'config': path.resolve(__dirname, '../src/config/index.'+(process.env.NODE_ENV === 'production'?'prod':'dev')+'.js')
     }
   },
