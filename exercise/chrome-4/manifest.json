@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "devtools",
+  "version": "1.0",
+  "description": "我的第四个Chrome扩展",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "devtools"
+  },
+  "devtools_page": "devtools.html"
+}
